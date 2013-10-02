@@ -25,12 +25,8 @@
  * @return {Boolean}
  */
 var hasClass = function(_item,_class) {
-  var _r = _item.className.match(new RegExp('(\\s|^)'+_class+'(\\s|$)'));
-  if(_r == null){
-    _r = false;
-  }else{
-    _r = true;
-  }
+  var _r = _item.className.match(new RegExp('(\\s|^)'+_class+'(\\s|$)'));  
+  (_r) ? _r = true : _r = false ;
   return _r;
 };
 
