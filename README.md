@@ -1,10 +1,8 @@
 # js-toolkits - v1.0
-===
 
 Collection of useful small javascript function.
 
 ## Class Tools
-=======================
 
 ### hasClass()
 
@@ -45,7 +43,6 @@ Remove a single class to the given element.
 
 
 ## Various
-=======================
 
 ### cleanWhitespace()
 
