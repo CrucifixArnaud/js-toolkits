@@ -41,6 +41,18 @@ Remove a single class to the given element.
 * **_item**, *object* (Required) : Object that will lose the given class
 * **_class**, *string* (Required) : Class to delete
 
+## Style
+
+### setStyle()
+
+Set multiple style to a given object
+
+	setStyle(_item, _styles);
+
+#### Params
+
+*	**_item**, *object* (Required) : Object that will receive the given styles
+* **_styles**, *array* (Required) :	Array of objects ({'width' : '100%', 'height' : '100%'})
 
 ## Various
 

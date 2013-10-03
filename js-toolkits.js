@@ -52,6 +52,22 @@ var removeClass = function(_item,_class) {
 };
 
 /*------------------------*\
+  $styles
+\*------------------------*/ 
+
+/**
+ * [setStyle - set multiple style to a given element]
+ * @param {object} _item : Object that will receive the given styles
+ * @param {array} _styles : Array of objects ({'width' : '100%', 'height' : '100%'})
+ */
+var setStyle = function(_item,_styles) {
+  var _s;
+  for (_s in _styles){
+    _item.style[_s] = _styles[_s];
+  }
+};
+
+/*------------------------*\
   $cleanWhitesSpace 
 \*------------------------*/ 
 
