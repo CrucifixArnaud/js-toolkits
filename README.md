@@ -45,7 +45,7 @@ Remove a single class to the given element.
 
 ### setStyle()
 
-Set multiple style to a given object
+Set multiple styles to a given object
 
 	setStyle(_item, _styles);
 
