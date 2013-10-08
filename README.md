@@ -70,11 +70,33 @@ Remove all the empty node (white-space) of an objects list.
 
 * *objects*
 
+### BrowserDetect()
+
+[http://www.quirksmode.org/js/detect.html]()
+
+Detect Browser and Browser Version
+
+	BrowserDetect.init();
+	
+#### Return 
+
+* object
+
+### requestAnimationFrame()
+
+[http://paulirish.com/2011/requestanimationframe-for-smart-animating/]()
+[http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating]()
+ 
+requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel
+ 
+MIT license
+
 =======================
 
 ## Changelog
 
 * **v1.0** Initial Release (Class Tools, RemoveWhiteSpace)
+	* **v1.1**  (setStyle, BrowserDetect, requestAnimationFrame)
 
 ## Credits
 
